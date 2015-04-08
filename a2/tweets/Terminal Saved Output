@@ -1,0 +1,48 @@
+Last login: Thu Feb 19 15:54:49 on ttys000
+dhcp-rhodes-531:~ pujaarajan$ ls
+Applications		Google Drive		Public
+Box Sync		Library			WebstormProjects
+Desktop			Movies			a1
+Documents		Music			a2
+Downloads		OneDrive		a3
+Dropbox			Pictures
+dhcp-rhodes-531:~ pujaarajan$ cd a2
+dhcp-rhodes-531:a2 pujaarajan$ ls
+$			frankenstein4.txt	spellchecker
+frankenread.sh		frankenstein5.txt	tweets
+frankenstein2.txt	frankenstein6.txt	tweets.tar.gz
+frankenstein3.txt	letter3.txt
+dhcp-rhodes-531:a2 pujaarajan$ cd spellchecker
+dhcp-rhodes-531:spellchecker pujaarajan$ ls
+english.txt		spellchecker.sh.save
+dhcp-rhodes-531:spellchecker pujaarajan$ nano spellchecker.sh.save
+
+
+
+
+
+
+  GNU nano 2.0.6          File: spellchecker.sh.save                  Modified  
+
+grep -f < $1 | grep -ivw english2.txt > english.txt
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+^G Get Help  ^O WriteOut  ^R Read File ^Y Prev Page ^K Cut Text  ^C Cur Pos
+^X Exit      ^J Justify   ^W Where Is  ^V Next Page ^U UnCut Text^T To Spell
